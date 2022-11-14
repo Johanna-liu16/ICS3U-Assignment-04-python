@@ -20,7 +20,7 @@ def main():
         int_year = int(str_year)
         int_month = int(str_month)
         if int_year < 0:
-                print("Invalid year")
+            print("Invalid year")
         else:
             if int_year % 4 == 0 or int_year % 400 == 0:
                 if int_year % 100 == 0 and int_year % 400 != 0:
