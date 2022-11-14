@@ -27,30 +27,32 @@ def main():
                     if int_month < 0 and int_month >= 13:
                         print("Invalid Month")
                     else:
-                        if int_month % 2 == 0:
-                            print("This month has 30 days.")
-                        elif int_month == 2:
+                        if int_month == 2:
                             print("This month has 28 days.")
+                        elif int_month % 2 == 0:
+                            print("This month has 30 days.")
                         else:
                             print("This month has 31 days.")
                 else:
                     print("This is a leap year.")
                     if int_month == 2:
                         print("There are 29 days.")
+                    elif int_month % 2 == 0:
+                        print("This month has 30 days.")
+                    else:
+                        print("This month has 31 days.")
             else:
                 if int_month < 0 and int_month >= 13:
                     print("Invalid Month")
                 else:
-                    if int_month % 2 == 0:
-                        print("This month has 30 days.")
-                    elif int_month == 2:
+                    if int_month == 2:
                         print("This month has 28 days.")
+                    elif int_month % 2 == 0:
+                        print("This month has 30 days.")
                     else:
                         print("This month has 31 days.")
     except ValueError:
         print("Invalid integer")
-    finally:
-        print("Thanks for playing")
     # output
 
     print("\nDone.")

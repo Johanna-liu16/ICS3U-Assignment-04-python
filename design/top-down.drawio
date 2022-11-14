@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="4tKINHAYez2iUvwL9TXG" name="Page-1">
-        <mxGraphModel dx="815" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1670" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" value="Get number from user" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="100" y="370" width="120" height="60" as="geometry"/>
+                <mxCell id="6" value="Get month from user" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-10" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="7" target="29" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -31,7 +31,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="7" target="39">
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" source="7" target="39" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="560" y="460"/>
@@ -82,10 +82,18 @@
                         <mxPoint x="80" y="380" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="9" target="41">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="160" y="350"/>
+                            <mxPoint x="220" y="350"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="9" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="270" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="loop_counter &amp;lt; int_integer; loopCounter ++;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="20" value="int_month == 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="300" y="460" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Check if the user inputs an integer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -107,7 +115,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" value="Exponents program" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="25" value="Months program" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="290" y="170" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="Show thanks for playing" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -116,17 +124,20 @@
                 <mxCell id="30" value="Tell user that input is not an integer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="630" y="550" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="Check if integer is negative" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="33" value="int_month % 2 == 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="425" y="460" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="show output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="760" y="550" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="answer = loopCounter * loopCounter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="37" value="check if year % 100 == 0 and year % 400 != 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="170" y="460" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="Show this is not a positive number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="39" value="Tell user that input is not a month" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="890" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Get year from user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="370" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
